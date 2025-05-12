@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Es Jeruk Segar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffa500;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin: 20px 0;
+    }
+    .description {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #ffa500;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Es Jeruk Segar</h1>
+</header>
+
+<main>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Orange_Juice_1_edit1.jpg/640px-Orange_Juice_1_edit1.jpg" alt="Es Jeruk Segar">
+  <div class="description">
+    <p>Es Jeruk adalah minuman yang sangat menyegarkan, cocok diminum saat cuaca panas. Terbuat dari perasan jeruk asli, air, dan sedikit gula, minuman ini tidak hanya enak tetapi juga kaya akan vitamin C.</p>
+    <p>Nikmati segelas es jeruk untuk mengembalikan semangatmu!</p>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Es Jeruk Lovers
+</footer>
+
+</body>
+</html>

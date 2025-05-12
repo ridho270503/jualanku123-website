@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Es Teh Segar</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0fff0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin: 20px 0;
+    }
+    .description {
+      font-size: 17px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Es Teh Manis</h1>
+</header>
+
+<main>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Glas_Iced_Tea.jpg/800px-Glas_Iced_Tea.jpg" alt="Es Teh">
+  <div class="description">
+    <p>Es Teh adalah minuman paling populer di Indonesia. Disajikan dingin dengan tambahan gula atau lemon, minuman ini cocok menemani setiap hidangan dan menyegarkan saat cuaca panas.</p>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Es Teh Lovers
+</footer>
+
+</body>
+</html>

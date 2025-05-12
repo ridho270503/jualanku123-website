@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kopi Susu</title>
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      background-color: #fefaf6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #6f4e37;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      margin: 20px 0;
+    }
+    .description {
+      font-size: 17px;
+      color: #333;
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.7;
+    }
+    footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kopi Susu Nikmat</h1>
+</header>
+
+<main>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Iced_coffee_2.jpg/800px-Iced_coffee_2.jpg" alt="Kopi Susu">
+  <div class="description">
+    <p>Kopi susu adalah kombinasi sempurna antara pahitnya kopi dan manisnya susu. Cocok untuk dinikmati pagi hari, saat bekerja, atau ketika bersantai. Rasanya yang lembut membuatnya digemari semua kalangan.</p>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Kopi Susu Lovers
+</footer>
+
+</body>
+</html>
