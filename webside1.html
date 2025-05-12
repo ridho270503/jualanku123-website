@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Minuman Segar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    header {
+      background-color: #28a745;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #218838;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 10px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+    }
+    .product-info {
+      padding: 15px;
+    }
+    .product-info h3 {
+      margin: 0;
+    }
+    .product-info p {
+      color: #555;
+    }
+    .price {
+      color: #28a745;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #28a745;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toko Minuman Segar</h1>
+    <p>Segarkan harimu dengan minuman pilihan kami!</p>
+  </header>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Produk</a>
+    <a href="#">Tentang Kami</a>
+    <a href="#">Kontak</a>
+  </nav>
+
+  <div class="container">
+    <a href="webside3.html" class="product">
+      <img src="https://via.placeholder.com/250x150?text=Es+Teh+Manis" alt="Es Teh Manis">
+      <div class="product-info">
+        <h3>Es Teh Manis</h3>
+        <p class="price">Rp 5.000</p>
+      </div>
+    </a>
+
+    <a href="webside2.html" class="product">
+      <img src="https://via.placeholder.com/250x150?text=Jus+Jeruk" alt="Jus Jeruk">
+      <div class="product-info">
+        <h3>Jus Jeruk</h3>
+        <p class="price">Rp 8.000</p>
+      </div>
+    </a>
+
+    <a href="webside4.html" class="product">
+      <img src="https://via.placeholder.com/250x150?text=Kopi+Susu" alt="Kopi Susu">
+      <div class="product-info">
+        <h3>Kopi Susu</h3>
+        <p class="price">Rp 10.000</p>
+      </div>
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Toko Minuman Hana R. All rights reserved.
+  </footer>
+</body>
+</html>
